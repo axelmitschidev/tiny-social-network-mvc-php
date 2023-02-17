@@ -9,9 +9,9 @@ function home_controller() {
   session_start();
   $method = $_SERVER['REQUEST_METHOD'];
 
-  $user = user_model_find_by_id($_SESSION['connected_user_id']);
+  $user = user_model_find_by_id($_SESSION['connected_user_id'] ?? null);
 
-  if ($user !== null) {
+  if ($user === null) {
     redirect('/login');
   }
   

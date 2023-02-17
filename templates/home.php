@@ -9,7 +9,7 @@
 <body>
   <h1>Social Network</h1>
   <h2>Home</h2>
-  <p>Welcome <b><?= $user['username'] ?></b>.</p>
+  <p>Welcome <b><?= $user['username'] ?? null ?></b>.</p>
   <a href="/logout">Logout</a>
   <hr>
   <?php foreach ($posts as $post): ?>
