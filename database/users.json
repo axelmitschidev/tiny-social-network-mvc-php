@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "username": "axeldoux",
+    "password": "azer",
+    "firstname": "axel",
+    "lastname": "mitschi"
+  },
+  {
+    "id": 3,
+    "username": "admin",
+    "password": "admin",
+    "firstname": "admin",
+    "lastname": "admin"
+  },
+  {
+    "id": 5,
+    "username": "azerreza",
+    "password": "azerreza",
+    "firstname": "azerreza",
+    "lastname": "azerreza"
+  },
+  {
+    "id": 6,
+    "username": "tom69",
+    "password": "azer",
+    "firstname": "tom",
+    "lastname": "hassen"
+  },
+  {
+    "id": 7,
+    "username": "axel",
+    "password": "axel",
+    "firstname": "axel",
+    "lastname": "mitschi"
+  }
+]
